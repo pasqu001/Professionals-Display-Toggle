@@ -39,5 +39,6 @@ struct ProfessionalTabView: View {
 struct ProfessionalTabView_Previews: PreviewProvider {
     static var previews: some View {
         ProfessionalTabView()
+            .environmentObject(ProfessionalModel())
     }
 }
